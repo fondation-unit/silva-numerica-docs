@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Liste des verbes
 
+Liste des verbes publics répertoriés dans le [registre officiel](https://registry.tincanapi.com/#home/activityTypes) et des verbes spécifiques au projet.
+
 ## Publics
 
 |ID|verbe|
