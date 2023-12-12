@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro
+# Introduction
 
 La norme xAPI (Experience API) emploie le format de données JSON (JavaScript Object Notation), pour faciliter l'interopérabilité entre systèmes.
 
@@ -11,6 +11,41 @@ xAPI permet de suivre des activités d'apprentissage en ligne classiques (au mê
 La structure des déclarations xAPI (*statements*) est construite autour du couple **acteur-verbe-objet**, où l'acteur décrit la personne à l'origine d'une action, le verbe décrit l'action effectuée (par exemple, *"lu"* ou *"répondu"*) et l'objet décrit l'entité sur laquelle à eu lieu l'action décrite par le verbe.
 
 À cela se greffent des données suplémentaires comme l'*agent* (acteur de l'action), le résultat, le score, etc.
+
+## Acteur
+
+L'acteur est à l'origine d'une action. Il n'est pas nécessairement identifié par un ID de système mais doit l'être par au moins l'un des attributs suivants :
+- `mbox` : adresse email au format `mailto:email@domain.ext`
+- `mbox_sha1sum` : l'encodage en SHA1 de l'adresse email fourni par le système émettant la déclaration
+- `openid` : l'URI openID de l'agent
+- `account` : l'objet (`homePage` et `name`) décrivant l'agent dans le système émettant la déclaration
+
+Exemple :
+
+```js
+{
+    "objectType": "Agent",
+    "account": {
+        "homePage": "http://www.example.com",
+        "name": "1625378"
+    }
+}
+```
+
+Exemple plus précis :
+
+```js
+{
+    "objectType": "Agent",
+    "name": "John Doe",
+    "mbox": "john.doe@example.com",
+    "openid": "http://www.example.com/openid/1625378",
+    "account": {
+        "homePage": "http://www.example.com",
+        "name": "1625378"
+    }
+}
+```
 
 ## Verbe
 
@@ -76,6 +111,8 @@ Une activité doit être **identifiée par une URI unique** (attribut `id`) et p
 
 L'ID unique d'une activité doit permettre d'interroger les données et d'éviter des pertes statistique ou des compromissions de données.
 
+### Définition
+
 La définition d'une activité peut être agrémentée de 
 - `name` : objet `langue: description`
 - `type` : URI identifiant un type prédéfini https://registry.tincanapi.com/#home/activityTypes
@@ -89,6 +126,7 @@ Exemple :
     "objectType": "Activity",
     "id": "http://example.com/audios/text-comprehension.mp3", 
     "definition": {
+        // highlight-start
         "name": {
             "en-US": "A listening comprehension audio file",
             "fr": "Fichier audio de compréhension orale"
@@ -101,6 +139,7 @@ Exemple :
         "extensions": {
             "http://example.com/courses/text-comprehension": "id-10"
         }
+        // highlight-end
     }
 }
 ```
@@ -112,6 +151,7 @@ Exemple d'extension plus complèxe :
     ...
     "definition": {
         ...
+        // highlight-start
         "extensions": {
             "http://id.tincanapi.com/extension/powered-by": {
                 "name": "xAPI Engine",
@@ -119,7 +159,8 @@ Exemple d'extension plus complèxe :
                 "version": "2012.1.0.5039b"
             }
         },
-        "version" : [ "1.0.0" ]
+        // highlight-end
+        "version" : ["1.0.0"]
     }
 }
 ```
