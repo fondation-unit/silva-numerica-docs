@@ -53,7 +53,7 @@ Construire l'objet `verb` et spécifier la traduction française. Exemple :
     "id": "ttp://adlnet.gov/expapi/verbs/answered",
     "display": {
         "en-US": "answered",
-        "fr": "répondu",
+        "fr": "répondu"
     }
 }
 ```
@@ -195,10 +195,10 @@ Cela permet de décrire, par exemple :
 ```js title="Exemple d'objet de type SubStatement"
 "object": {
     // highlight-start
-    "object_type": "SubStatement",
+    "objectType": "SubStatement",
     // highlight-end
     "actor": {
-        "object_type": "Agent",
+        "objectType": "Agent",
         "name": "John Doe",
         "mbox": "mailto:john.doe@example.com"
     },
@@ -210,7 +210,7 @@ Cela permet de décrire, par exemple :
     },
     "object": {
         // highlight-start
-        "object_type": "StatementRef",
+        "objectType": "StatementRef",
         "id": "e05aa883-acaf-40ad-bf54-02c8ce485fb0"
         // highlight-end
     }
