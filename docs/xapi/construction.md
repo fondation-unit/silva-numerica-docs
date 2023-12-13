@@ -6,10 +6,7 @@ sidebar_position: 3
 
 Spécifications pour la construction de déclarations xAPI.
 
-Générateur de statements : https://adlnet.github.io/xapi-lab/
-
-<sup>*</sup> *[REDACTED]* signifie que la donnée est privée (mot de passe, URL, ...).
-
+Outil générateur de statements : https://adlnet.github.io/xapi-lab/
 
 ## Acteur
 
@@ -37,7 +34,7 @@ On peut collecter les valeurs `id` et `email` pour construire l'objet `actor` à
     "objectType": "Agent",
     "mbox": "john.doe@example.com",
     "account": {
-        "homePage": "http://[REDACTED]",
+        "homePage": "http://example.com/users/1",
         "name": "1"
     }
 }
@@ -79,6 +76,9 @@ Permet de représenter une activité comme objet de la déclaration.
 
 ```js title="Exemple d'objet de type Activity"
 "object": {
+    // highlight-start
+    "objectType": "Activity",
+    // highlight-end
     "id": "http://example.com/objects/custom_resource",
     "definition": {
         "name": {
@@ -104,7 +104,9 @@ Le contenu d'un objet de type `Agent` est équivalent à l'objet Agent de la dé
 
 ```js title="Exemple d'objet de type Agent"
 "object": {
+    // highlight-start
     "objectType": "Agent",
+    // highlight-end
     "mbox": "mailto:tyler.mulligan.ctr@adlnet.gov",
     "account": {
         "name": "xapiguy",
@@ -118,7 +120,9 @@ Le contenu d'un objet de type `Group` est équivalent et permet de spécifier un
 
 ```js title="Exemple d'objet de type Group"
 "object": {
+    // highlight-start
     "objectType": "Group",
+    // highlight-end
     "mbox": "mailto:teamxapi@example.com",
     "name": "The group name",
     "member": [
@@ -157,21 +161,23 @@ Permet de définir une nouvelle déclaration en référence à une déclaration 
 
 ```js title="Exemple d'objet de type StatementRef"
 "object": {
-    "actor" : { 
+    "actor": { 
         "objectType": "Agent", 
         "mbox": "mailto:test@example.com" 
     },
-    "verb" : { 
+    "verb": { 
         "id":"http://example.com/commented", 
         "display": {
             "en-US": "commented"
         } 
     },
-    "object" : {
+    "object": {
+        // highlight-start
         "objectType": "StatementRef",
         "id": "8f87ccde-bb56-4c2e-ab83-44982ef22df0"
+        // highlight-end
     },
-    "result" : { 
+    "result": { 
         "response": "Wow, nice work!" 
     }
 }
@@ -188,7 +194,9 @@ Cela permet de décrire, par exemple :
 
 ```js title="Exemple d'objet de type SubStatement"
 "object": {
+    // highlight-start
     "object_type": "SubStatement",
+    // highlight-end
     "actor": {
         "object_type": "Agent",
         "name": "John Doe",
@@ -201,8 +209,10 @@ Cela permet de décrire, par exemple :
         }
     },
     "object": {
+        // highlight-start
         "object_type": "StatementRef",
         "id": "e05aa883-acaf-40ad-bf54-02c8ce485fb0"
+        // highlight-end
     }
 }
 ```

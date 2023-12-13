@@ -87,24 +87,20 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Silva Numerica',
+                href: 'https://silvanumerica.net',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Fondation UNIT',
+                href: 'https://unit.eu',
+              }
             ],
           }
         ],
-        copyright: `©${new Date().getFullYear()} Silva Numerica. Built with Docusaurus.`,
+        copyright: `©${new Date().getFullYear()} Silva Numerica.<br>Conçu par Fondation UNIT. Construit avec Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
