@@ -30,8 +30,8 @@ Configuration de l'authentification OAuth2 dans Moodle.
 |Keys|Values|
 |----|------|
 |discovery_endpoint|`https://[REDACTED]/oauth/applications`|
-|authorization_endpoint|`https://[REDACTED]/oauth/oauth/authorize`|
-|token_endpoint|`https://[REDACTED]/oauth/oauth/token`|
+|authorization_endpoint|`https://[REDACTED]/oauth/authorize`|
+|token_endpoint|`https://[REDACTED]/oauth/token`|
 |revocation_endpoint|`https://[REDACTED]/oauth/revoke`|
 |userinfo_endpoint|`https://[REDACTED]/api/v1/me.json`|
 
