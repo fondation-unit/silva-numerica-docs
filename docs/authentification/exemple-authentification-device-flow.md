@@ -100,7 +100,7 @@ A ce stade, la requête est émise vers l'API de la plate-forme pédagogique et 
 
 |Requête|URL|Headers|Valeur|
 |-------|---|-------|------|
-|GETT|`[API_URL]/api/v1/users/current_user`|`Authorization`|`Bearer [REDACTED]`|
+|GET|`[API_URL]/api/v1/users/current_user`|`Authorization`|`Bearer [REDACTED]`|
 
 #### Avec cURL :
 
