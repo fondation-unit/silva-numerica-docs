@@ -103,8 +103,8 @@ const config = {
         copyright: `©${new Date().getFullYear()} Silva Numerica.<br>Conçu par Fondation UNIT. Construit avec Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.oneLight,
+        darkTheme: prismThemes.oneDark,
       },
     }),
 
