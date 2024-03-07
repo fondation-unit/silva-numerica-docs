@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 729 382" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,0.884848,-345.668,-198.927)">
+        <rect id="Plan-de-travail1" serif:id="Plan de travail1" x="345.668" y="224.816" width="728.235" height="431.652" style="fill:none;"/>
+        <g>
+            <clipPath id="_clip1">
+                <rect x="345.668" y="224.816" width="728.235" height="431.652"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Layer-1" serif:id="Layer 1" transform="matrix(1.33333,0,0,1.50685,0.667622,-498.834)">
+                    <g transform="matrix(0.75,0,0,0.75,0,274.961)">
+                        <path d="M351.392,428.596C351.392,428.596 309.294,570.85 453.419,632.328C597.544,693.805 801.305,618.46 961.932,618.46C1122.56,618.46 1063.17,428.596 1063.17,428.596L351.392,428.596Z" style="fill:rgb(146,192,70);stroke:black;stroke-opacity:0;stroke-width:1px;"/>
+                    </g>
+                    <g id="g5052">
+                        <g id="g5797">
+                            <g id="g6558">
+                                <g id="g6178">
+                                    <g id="g6941">
+                                        <g id="path4900" transform="matrix(1.00728,0,0,0.751046,-1.98598,145.221)">
+                                            <ellipse cx="435.049" cy="572.165" rx="162.285" ry="115.308" style="fill:rgb(65,73,22);"/>
+                                        </g>
+                                        <g id="ellipse4902" transform="matrix(1,0,0,0.95502,-8.54131,43.756)">
+                                            <ellipse cx="404.318" cy="578.681" rx="132.232" ry="93.954" style="fill:rgb(119,148,33);"/>
+                                        </g>
+                                        <g id="ellipse4908" transform="matrix(1.59936,0,0,1,-429.789,3.20299)">
+                                            <ellipse cx="659.295" cy="516.072" rx="43.535" ry="30.933" style="fill:rgb(65,73,22);"/>
+                                        </g>
+                                        <g id="ellipse4906" transform="matrix(1,0,0,1,-8.54131,3.20299)">
+                                            <ellipse cx="617.47" cy="617.732" rx="132.232" ry="93.954" style="fill:rgb(146,192,70);"/>
+                                        </g>
+                                        <g id="g4418" transform="matrix(0.900539,0,0,0.900539,566.121,54.2135)">
+                                            <g id="g4420" transform="matrix(0.558824,0,0,0.382353,-35.0326,398.381)">
+                                                <g id="g4422">
+                                                    <rect id="rect4424" x="304.108" y="580.547" width="87.906" height="161.558" style="fill:rgb(146,192,70);"/>
+                                                </g>
+                                                <g id="path4426" transform="matrix(1,0,0,1,0,274.961)">
+                                                    <path d="M360.286,305.586C355.024,306.472 350.792,305.665 350.792,305.665L354.002,466.367L376.748,464.361C385.805,459.921 392.014,450.625 392.014,439.822L392.014,332.908C392.014,317.771 379.829,305.586 364.692,305.586L360.286,305.586Z" style="fill:rgb(216,246,60);"/>
+                                                </g>
+                                            </g>
+                                            <rect id="rect4428" x="163.562" y="626.909" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4430" x="173.334" y="630.515" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4432" x="163.795" y="636.914" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4434" x="176.126" y="642.963" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4436" x="164.144" y="650.059" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4438" x="176.126" y="655.41" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                        </g>
+                                        <g id="path4273">
+                                        </g>
+                                        <g transform="matrix(0.799554,0,0,0.778996,187.626,473.113)">
+                                            <ellipse cx="237.431" cy="316.362" rx="32.004" ry="17.581" style="fill:rgb(114,121,90);"/>
+                                        </g>
+                                        <g id="g4440" transform="matrix(0.732059,0,0,0.732059,182.074,169.71)">
+                                            <rect id="rect4335" x="750.654" y="612.168" width="25.999" height="67.183" style="fill:rgb(95,45,33);"/>
+                                            <g id="g4311" transform="matrix(0.805096,0,0,0.805096,480.011,117.943)">
+                                                <ellipse id="ellipse4313" cx="352.309" cy="537.563" rx="102.538" ry="97.937" style="fill:rgb(146,192,70);"/>
+                                                <path id="path4315" d="M353.623,439.689L352.309,635.5L382.388,635.023C425.293,622.19 454.8,583.322 454.847,539.576C454.816,485.249 409.352,440.385 353.623,439.689Z" style="fill:rgb(216,246,60);"/>
+                                                <rect id="rect4317" x="402.082" y="477.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4319" x="363.9" y="456.722" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4321" x="362.082" y="504.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4323" x="408.482" y="529.806" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4325" x="363.682" y="552.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4327" x="395.682" y="581.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            </g>
+                                        </g>
+                                        <g id="g4452" transform="matrix(0.836822,0,0,0.836822,627.086,98.9635)">
+                                            <g id="g4454" transform="matrix(0.558824,0,0,0.382353,-35.0326,398.381)">
+                                                <g id="g4456">
+                                                    <rect id="rect4458" x="304.108" y="580.547" width="87.906" height="161.558" style="fill:rgb(146,192,70);"/>
+                                                </g>
+                                                <g id="path4460" transform="matrix(1,0,0,1,0,274.961)">
+                                                    <path d="M360.286,305.586C355.024,306.472 350.792,305.665 350.792,305.665L354.002,466.367L376.748,464.361C385.805,459.921 392.014,450.625 392.014,439.822L392.014,332.908C392.014,317.771 379.829,305.586 364.692,305.586L360.286,305.586Z" style="fill:rgb(216,246,60);"/>
+                                                </g>
+                                            </g>
+                                            <rect id="rect4462" x="163.562" y="626.909" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4464" x="173.334" y="630.515" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4466" x="163.795" y="636.914" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4468" x="176.126" y="642.963" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4470" x="164.144" y="650.059" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4472" x="176.126" y="655.41" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                        </g>
+                                        <g id="g4301" transform="matrix(0.655213,0,0,0.655213,472.478,192.832)">
+                                            <ellipse id="path4278" cx="352.309" cy="537.563" rx="102.538" ry="97.937" style="fill:rgb(146,192,70);"/>
+                                            <path id="path4282" d="M353.623,439.689L352.309,635.5L382.388,635.023C425.293,622.19 454.8,583.322 454.847,539.576C454.816,485.249 409.352,440.385 353.623,439.689Z" style="fill:rgb(216,246,60);"/>
+                                            <rect id="rect4289" x="402.082" y="477.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            <rect id="rect4291" x="363.9" y="456.722" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            <rect id="rect4293" x="362.082" y="504.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            <rect id="rect4295" x="408.482" y="529.806" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            <rect id="rect4297" x="363.682" y="552.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            <rect id="rect4299" x="395.682" y="581.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                        </g>
+                                        <g id="g5186" transform="matrix(0.264778,0,0,0.264778,386.756,457.376)">
+                                            <g id="path5188" transform="matrix(0.757756,-1.01613,0.652538,1.17998,-384.605,-50.0276)">
+                                                <path d="M323.115,428.492L237.448,905.605L-132.91,592.858L323.115,428.492Z" style="fill:rgb(146,192,70);fill-rule:nonzero;"/>
+                                            </g>
+                                            <g id="path5190" transform="matrix(1,0,0,1,0,274.961)">
+                                                <path d="M139.845,-147.705L135.448,506.106L386.264,502.33L139.845,-147.705Z" style="fill:rgb(190,211,63);"/>
+                                            </g>
+                                            <rect id="rect5192" x="140.175" y="252.68" width="28.51" height="7.128" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5194" x="171.351" y="300.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5196" x="146.575" y="342.231" width="23.758" height="7.128" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5198" x="171.351" y="383.783" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5200" x="211.351" y="434.983" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5202" x="152.151" y="470.183" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5204" x="228.951" y="514.983" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5206" x="160.151" y="564.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5208" x="230.551" y="612.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                        </g>
+                                        <g id="g5210" transform="matrix(1,0,0,0.758025,255.692,151.178)">
+                                            <g id="g5212" transform="matrix(0.558824,0,0,0.382353,-35.0326,398.381)">
+                                                <g id="g5214">
+                                                    <rect id="rect5216" x="304.108" y="580.547" width="87.906" height="161.558" style="fill:rgb(146,192,70);"/>
+                                                </g>
+                                                <g id="path5218" transform="matrix(1,0,0,1,0,274.961)">
+                                                    <path d="M360.286,305.586C355.024,306.472 350.792,305.665 350.792,305.665L354.002,466.367L376.748,464.361C385.805,459.921 392.014,450.625 392.014,439.822L392.014,332.908C392.014,317.771 379.829,305.586 364.692,305.586L360.286,305.586Z" style="fill:rgb(216,246,60);"/>
+                                                </g>
+                                            </g>
+                                            <rect id="rect5220" x="163.562" y="626.909" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5222" x="173.334" y="630.515" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5224" x="163.795" y="636.914" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5226" x="176.126" y="642.963" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5228" x="164.144" y="650.059" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5230" x="176.126" y="655.41" width="2.21" height="1.163" style="fill:rgb(154,186,56);"/>
+                                        </g>
+                                        <g id="g4910" transform="matrix(0.250457,0,0,0.250457,163.869,381.921)">
+                                            <rect id="rect4912" x="750.654" y="612.168" width="25.999" height="67.183" style="fill:rgb(95,45,33);"/>
+                                            <g id="g4914" transform="matrix(0.805096,0,0,0.805096,480.011,117.943)">
+                                                <ellipse id="ellipse4916" cx="352.309" cy="537.563" rx="102.538" ry="97.937" style="fill:rgb(153,186,56);"/>
+                                                <path id="path4918" d="M353.623,439.689L352.309,635.5L382.388,635.023C425.293,622.19 454.8,583.322 454.847,539.576C454.816,485.249 409.352,440.385 353.623,439.689Z" style="fill:rgb(216,246,60);"/>
+                                                <rect id="rect4920" x="402.082" y="477.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4922" x="363.9" y="456.722" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4924" x="362.082" y="504.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4926" x="408.482" y="529.806" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4928" x="363.682" y="552.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4930" x="395.682" y="581.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            </g>
+                                        </g>
+                                        <g id="g4932" transform="matrix(0.250457,0,0,0.250457,197.225,378.667)">
+                                            <rect id="rect4934" x="750.654" y="612.168" width="25.999" height="67.183" style="fill:rgb(95,45,33);"/>
+                                            <g id="g4936" transform="matrix(0.805096,0,0,0.805096,480.011,117.943)">
+                                                <ellipse id="ellipse4938" cx="352.309" cy="537.563" rx="102.538" ry="97.937" style="fill:rgb(153,186,56);"/>
+                                                <path id="path4940" d="M353.623,439.689L352.309,635.5L382.388,635.023C425.293,622.19 454.8,583.322 454.847,539.576C454.816,485.249 409.352,440.385 353.623,439.689Z" style="fill:rgb(216,246,60);"/>
+                                                <rect id="rect4942" x="402.082" y="477.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4945" x="363.9" y="456.722" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4947" x="362.082" y="504.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4949" x="408.482" y="529.806" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4951" x="363.682" y="552.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4953" x="395.682" y="581.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            </g>
+                                        </g>
+                                        <g id="g4955" transform="matrix(0.293592,0,0,0.293592,289.842,386.426)">
+                                            <rect id="rect4957" x="750.654" y="612.168" width="25.999" height="67.183" style="fill:rgb(95,45,33);"/>
+                                            <g id="g4959" transform="matrix(0.805096,0,0,0.805096,480.011,117.943)">
+                                                <ellipse id="ellipse4961" cx="352.309" cy="537.563" rx="102.538" ry="97.937" style="fill:rgb(146,192,70);"/>
+                                                <path id="path4963" d="M353.623,439.689L352.309,635.5L382.388,635.023C425.293,622.19 454.8,583.322 454.847,539.576C454.816,485.249 409.352,440.385 353.623,439.689Z" style="fill:rgb(216,246,60);"/>
+                                                <rect id="rect4965" x="402.082" y="477.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4967" x="363.9" y="456.722" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4969" x="362.082" y="504.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4971" x="408.482" y="529.806" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4974" x="363.682" y="552.206" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                                <rect id="rect4976" x="395.682" y="581.006" width="17.09" height="5.258" style="fill:rgb(153,186,56);"/>
+                                            </g>
+                                        </g>
+                                        <g id="g4978" transform="matrix(0.127148,0,0,0.127148,544.424,472.207)">
+                                            <g id="path4980" transform="matrix(0.757756,-1.01613,0.652538,1.17998,-384.605,-50.0276)">
+                                                <path d="M323.115,428.492L237.448,905.605L-132.91,592.858L323.115,428.492Z" style="fill:rgb(146,192,70);fill-rule:nonzero;"/>
+                                            </g>
+                                            <g id="path4982" transform="matrix(1,0,0,1,0,274.961)">
+                                                <path d="M139.845,-147.705L135.448,506.106L386.264,502.33L139.845,-147.705Z" style="fill:rgb(190,211,63);"/>
+                                            </g>
+                                            <rect id="rect4984" x="140.175" y="252.68" width="28.51" height="7.128" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4986" x="171.351" y="300.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4989" x="146.575" y="342.231" width="23.758" height="7.128" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4992" x="171.351" y="383.783" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4994" x="211.351" y="434.983" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4996" x="152.151" y="470.183" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect4998" x="228.951" y="514.983" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5000" x="160.151" y="564.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                            <rect id="rect5002" x="230.551" y="612.583" width="26.134" height="9.503" style="fill:rgb(154,186,56);"/>
+                                        </g>
+                                        <g id="g4878" transform="matrix(0.610145,-0.0190039,0.019004,0.610145,115.317,692.362)">
+                                            <path id="rect4841" d="M789.915,14.868L941.691,24.059L932.962,79.585L783.201,79.501L789.915,14.868Z" style="fill:rgb(254,101,0);fill-rule:nonzero;"/>
+                                            <path id="rect4836" d="M723.757,-156.886L857.594,-157.659C858.836,-158.078 912.853,-1.424 955.369,24.282L799.648,24.443C763.853,-3.427 723.757,-156.886 723.757,-156.886Z" style="fill:rgb(247,185,0);fill-rule:nonzero;"/>
+                                            <g transform="matrix(1.22862,0,0,1.22862,-187.374,-627.917)">
+                                                <path d="M796.723,438.586L846.454,438.586L858.838,464.694L808.536,464.313L796.723,438.586" style="fill:rgb(253,130,22);stroke:black;stroke-opacity:0;stroke-width:1px;"/>
+                                            </g>
+                                            <path id="rect4869" d="M581.813,-11.255C625.816,-34.956 667.564,-86.38 711.691,-136.923L713.305,-137.644L626.928,1.075L581.813,-11.255Z" style="fill:rgb(254,102,0);fill-rule:nonzero;"/>
+                                            <g id="g4865" transform="matrix(0.611614,0.117697,-0.117697,0.611614,293.203,-144.784)">
+                                                <path id="rect4859" d="M677.275,-150.033L676.86,-150.137L841.277,108.018L842.013,204.627L587.256,233.255L552.818,123.6L677.275,-150.033Z" style="fill:rgb(251,137,4);fill-rule:nonzero;"/>
+                                                <path id="rect4862" d="M676.655,-146.064L677.186,-146.846L669.472,33.832C752.959,277.899 792.51,190.236 797.882,209.548L688.679,222.151L603.817,230.681C632.291,238.501 677.849,100.407 667.183,34.138L676.655,-146.064Z" style="fill:rgb(64,53,47);fill-rule:nonzero;"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
