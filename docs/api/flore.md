@@ -97,61 +97,71 @@ Récupérer les informations d'une carte de type flore à partir de son ID.
       {
         "stump_image": {
           "image": null,
-          "name": "image souche"
+          "name": "image souche",
+          "description": "lisse et verdâtre\r\nmince"
         }
       },
       {
         "bark_image": {
           "image": null,
-          "name": "image écorce"
+          "name": "image écorce",
+          "description": null
         }
       },
       {
         "twig_image": {
           "image": "[REDACTED]/image.jpg",
-          "name": "image rameau"
+          "name": "image rameau",
+          "description": null
         }
       },
       {
         "stalk_image": {
           "image": null,
-          "name": "image pétiole"
+          "name": "image pétiole",
+          "description": null
         }
       },
       {
         "bud_image": {
           "image": "[REDACTED]/image.jpg",
-          "name": "image bourgeon"
+          "name": "image bourgeon",
+          "description": null
         }
       },
       {
         "leaf_image": {
           "image": "[REDACTED]/image.jpg",
-          "name": "image feuille"
+          "name": "image feuille",
+          "description": null
         }
       },
       {
         "flower_image": {
           "image": null,
-          "name": "image fleur / sore"
+          "name": "image fleur / sore",
+          "description": null
         }
       },
       {
         "inflorescence_image": {
           "image": null,
-          "name": "image inflorescence"
+          "name": "image inflorescence",
+          "description": null
         }
       },
       {
         "fruit_image": {
           "image": null,
-          "name": "image fruit"
+          "name": "image fruit",
+          "description": null
         }
       },
       {
         "seed_image": {
           "image": null,
-          "name": "image graine"
+          "name": "image graine",
+          "description": null
         }
       }
     ],
