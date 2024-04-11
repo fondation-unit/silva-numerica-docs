@@ -12,7 +12,7 @@ Récupérer la liste des cartes.
 |-------|------|-------|------|
 |GET|`/api/v1/cards`|`Authorization`|`Bearer [REDACTED]`
 
-```js title="Exemple de réponse"
+```js title="Exemple de réponse d'une carte de type Flore"
 {
   "cards": [
     {
@@ -43,311 +43,212 @@ Récupérer les informations d'une carte à partir de son ID.
 
 ```js title="Exemple de réponse"
 {
-  "card": {
+  "flora": {
     "id": 1,
-    "name": "Chêne sessile",
     "type": "flore",
-    "latin_name": "Quercus petraea",
-    "latin_name_author": "(Mattuschka) Liebl",
-    "other_common_names": "Chêne lombard, chêne cerris, chêne de bourgogne, chêne de turquie, doucier",
-    "bibliographical_sources": "Eos hic est. In *incidunt* est. Velit aut consequatur.",
-    "family": "adoxacées",
-    "type_attributes": {
-      "id": 1,
-      "age_min": 500,
-      "age_max": 1000,
-      "age_range": "between",
-      "height_min": 25,
-      "height_max": 40,
-      "height_range": "between",
-      "height_unit": "m",
-      "features": [
-        {
-          "lifespan": {
-            "id": 227,
-            "name": "lifespan",
-            "name_fr": "durée de vie",
-            "value": "plante bisannuelle"
-          }
+    "created_at": "2024-04-08T09:51:15.161Z",
+    "updated_at": "2024-04-08T10:01:07.230Z",
+    "illustrations": [
+      {
+        "url": "[REDACTED]/structure.jpg",
+        "name": "Structure générale"
+      },
+      {
+        "url": "[REDACTED]/twig.jpg",
+        "name": "Tige / rameau"
+      },
+      {
+        "url": "[REDACTED]/leaf.jpg",
+        "name": "Feuille / fronde / aiguille"
+      },
+      {
+        "url": "[REDACTED]/flower.jpg",
+        "name": "Fleur / sore"
+      },
+      {
+        "url": "[REDACTED]/fruit.jpg",
+        "name": "Fruit"
+      }
+    ],
+    "general_informations": {
+      "title": "Informations générales",
+      "entries": {
+        "name": "Chêne sessile",
+        "latin_name": "Quercus petraea",
+        "latin_name_author": "(Mattuschka) Liebl",
+        "scientific_name": "Quercus petraea (Mattuschka) Liebl",
+        "other_common_names": "Chêne lombard, chêne cerris, chêne de bourgogne, chêne de turquie, doucier",
+        "group": {
+          "name_fr": "Groupe",
+          "values": [
+            "Gymnospermes"
+          ]
         },
-        {
-          "vegetative_rest_state": {
-            "id": 230,
-            "name": "vegetative_rest_state",
-            "name_fr": "état durant le repos végétatif",
-            "value": "espèce sempervirente"
-          }
+        "family": "Fagacées"
+      }
+    },
+    "biological_characteristics": {
+      "title": "Caractères biologiques",
+      "entries": {
+        "growth_form": {
+          "name_fr": "Forme de croissance",
+          "values": [
+            "Arbrisseau"
+          ]
         },
-        {
-          "flowering_sporulation": {
-            "entries": [
-              "mars",
-              "mai",
-              "juin"
-            ],
-            "name": "floraison / sporulation"
-          }
+        "vegetative_rest_state": {
+          "name_fr": "État durant le repos végétatif",
+          "value": "Espèce caducifoliée"
         },
-        {
-          "stump_image": {
-            "image": "[REDACTED]/quercus_cerris-stump.jpg",
-            "name": "souche",
-            "description": null
-          }
+        "lifespan": {
+          "name_fr": "Durée de vie",
+          "value": "Plante vivace"
         },
-        {
-          "bark_image": {
-            "image": "[REDACTED]/quercus_cerris-bark.jpg",
-            "name": "écorce",
-            "description": [
-              "sombre",
-              "brun grisâtre",
-              "profondément rainurée"
-            ]
-          }
+        "biological_type": {
+          "name_fr": "Type biologique",
+          "values": [
+            "Phanérophyte"
+          ]
         },
-        {
-          "twig_image": null
-        },
-        {
-          "stem_image": null
-        },
-        {
-          "stalk_image": null
-        },
-        {
-          "bud_image": null
-        },
-        {
-          "leaf_image": {
-            "image": "[REDACTED]/quercus_cerris-leaf.jpg",
-            "name": "feuille",
-            "description": [
-              "lisse",
-              "verdâtre"
-            ]
-          }
-        },
-        {
-          "flower_image": null
-        },
-        {
-          "inflorescence_image": null
-        },
-        {
-          "fruit_image": null
-        },
-        {
-          "seed_image": null
-        },
-        {
-          "feature_type": {
-            "name": "biological_type",
-            "name_fr": "type biologique",
-            "entries": [
-              {
-                "id": 14,
-                "value": "hémicryptophyte"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "pollination_method",
-            "name_fr": "mode de pollinisation",
-            "entries": [
-              {
-                "id": 17,
-                "value": "autogamie"
-              },
-              {
-                "id": 18,
-                "value": "allogamie"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "diaspores_dispersal_mode",
-            "name_fr": "mode de dispersion des diaspores",
-            "entries": [
-              {
-                "id": 21,
-                "value": "géochorie"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "light",
-            "name_fr": "lumière",
-            "entries": [
-              {
-                "id": 37,
-                "value": "photophile"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "humus_form",
-            "name_fr": "forme d'humus",
-            "entries": [
-              {
-                "id": 43,
-                "value": "dysmull"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "trophic_level",
-            "name_fr": "niveau trophique",
-            "entries": [
-              {
-                "id": 80,
-                "value": "riche en azote"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "water_level",
-            "name_fr": "niveau d'hydrique",
-            "entries": [
-              {
-                "id": 87,
-                "value": "frais"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "materials",
-            "name_fr": "matériaux",
-            "entries": [
-              {
-                "id": 104,
-                "value": "limons (purs, sableux ou caillouteux)"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "indicative_characteristic",
-            "name_fr": "caractère indicateur",
-            "entries": [
-              {
-                "id": 132,
-                "value": "espèce mésophile"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "ecological_succession_stage",
-            "name_fr": "stade de succession écologique",
-            "entries": [
-              {
-                "id": 144,
-                "value": "espèce dryade"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "biotope",
-            "name_fr": "biotope",
-            "entries": [
-              {
-                "id": 149,
-                "value": "bois frais"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "station",
-            "name_fr": "station",
-            "entries": [
-              {
-                "id": 223,
-                "value": "plaine"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "pollen_grain_transport",
-            "name_fr": "mode de transport des grains de pollen",
-            "entries": [
-              {
-                "id": 31,
-                "value": "hydrogamie"
-              },
-              {
-                "id": 32,
-                "value": "zoogamie"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "growth_form",
-            "name_fr": "forme de croissance",
-            "entries": [
-              {
-                "id": 9,
-                "value": "arbuste"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "floral_group",
-            "name_fr": "groupe",
-            "entries": [
-              {
-                "id": 3,
-                "value": "angiospermes"
-              }
-            ]
-          }
-        },
-        {
-          "feature_type": {
-            "name": "reproduction",
-            "name_fr": "reproduction",
-            "entries": [
-              {
-                "id": 232,
-                "value": "reproduction sexuée"
-              },
-              {
-                "id": 235,
-                "value": "monoïque"
-              }
-            ]
-          }
+        "longevity": {
+          "name_fr": "Longévité biologique",
+          "value": "Entre 500 et 1000 ans"
         }
+      }
+    },
+    "reproductive_functions": {
+      "title": "Fonctions reproductives",
+      "entries": {
+        "reproduction": {
+          "name_fr": "Reproduction",
+          "values": [
+            "Reproduction sexuée",
+            "Monoïque"
+          ]
+        },
+        "pollination_method": {
+          "name_fr": "Mode de pollinisation",
+          "values": [
+            "Autogamie",
+            "Allogamie"
+          ]
+        },
+        "pollen_grain_transport": {
+          "name_fr": "Mode de transport des grains de pollen",
+          "values": [
+            "Hydrogamie",
+            "Zoogamie",
+            "Ornithogamie"
+          ]
+        },
+        "diaspores_dispersal_mode": {
+          "name_fr": "Mode de dispersion des diaspores",
+          "values": [
+            "Barochorie",
+            "Hydrochorie"
+          ]
+        }
+      }
+    },
+    "flowering_sporulation": {
+      "name_fr": "Floraison / Sporulation",
+      "values": [
+        "Mars",
+        "Mai",
+        "Juin"
       ]
     },
-    "created_at": "2024-03-15T14:40:38.446Z",
-    "updated_at": "2024-03-15T14:46:27.694Z"
+    "diagnostic_features": {
+      "title": "Caractères diagnostiques",
+      "entries": {
+        "height": {
+          "name_fr": "Taille",
+          "value": "Entre 25 m et 40 m"
+        },
+        "bark_image": null,
+        "twig_image": null,
+        "bud_image": null,
+        "leaf_image": {
+          "url": "[REDACTED]/leaf-2.jpg",
+          "name_fr": "feuille / fronde / aiguille",
+          "description": null
+        },
+        "stalk_image": null,
+        "flower_image": null,
+        "fruit_image": {
+          "url": "[REDACTED]/fruit.png",
+          "name_fr": "fruit",
+          "description": null
+        },
+        "seed_image": null
+      }
+    },
+    "autoecology": {
+      "name_fr": "Autécologie",
+      "entries": {
+        "light": {
+          "name_fr": "Lumière",
+          "values": [
+            "Photophile"
+          ]
+        },
+        "humus_form": {
+          "name_fr": "Forme d'humus",
+          "values": [
+            "Hydromor"
+          ]
+        },
+        "soil_texture": {
+          "name_fr": "Texture du sol",
+          "values": [
+            "Équilibrée"
+          ]
+        },
+        "trophic_gradient": {
+          "name_fr": "Gradient trophique",
+          "values": "Acide à très acide"
+        },
+        "hydric_gradient": {
+          "name_fr": "Gradient hydrique",
+          "values": "Humide à assez humide"
+        },
+        "trophic_indicator_characteristic": {
+          "name_fr": "Caractère indicateur trophique",
+          "values": "Neutronitrophile à mésoacidiphile"
+        },
+        "hydric_indicator_characteristic": {
+          "name_fr": "Caractère indicateur hydrique",
+          "values": "Mésoxérophile à mésohygrocline"
+        }
+      }
+    },
+    "biotopes": {
+      "name_fr": "Biotopes",
+      "values": []
+    },
+    "stations": {
+      "name_fr": "Stations",
+      "values": [
+        "Forêt humide"
+      ]
+    },
+    "usages_properties": {
+      "name_fr": "Usages / propriétés",
+      "values": []
+    },
+    "protection": {
+      "name_fr": "Protection",
+      "values": [
+        "Protection régionale"
+      ]
+    },
+    "red_list": {
+      "name_fr": "Liste rouge des espèces menacées (france métropolitaine)",
+      "value": "VU : vulnérable",
+      "background_color": "#f7c729",
+      "border_color": "#f7c729"
+    },
+    "bibliographical_sources": "Ratione consequatur pariatur. Quos temporibus aut. Dicta voluptas ~voluptas.~"
   }
 }
 ```
