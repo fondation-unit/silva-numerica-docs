@@ -8,12 +8,12 @@ sidebar_position: 2
 
 |Requête|URL|Paramètres|
 |-------|---|----------|
-|POST|`[OAUTH_URL]/oauth/authorize_device`|`client_id`|
+|POST|`[API_URL]/oauth/authorize_device`|`client_id`|
 
 #### Avec cURL :
 
 ```bash
-curl -X POST https://[OAUTH_URL]/oauth/authorize_device \
+curl -X POST https://[API_URL]/oauth/authorize_device \
   -H "Content-Type: application/json" \
   --data '{"client_id": "[REDACTED]"}'
 ```
@@ -41,7 +41,7 @@ Lancer une requête répétée à l'intervale renvoyée par la réponse de l'ét
   <tbody>
     <tr>
       <td rowspan="3">POST</td>
-      <td rowspan="3">`[OAUTH_URL]/oauth/token`</td>
+      <td rowspan="3">`[API_URL]/oauth/token`</td>
       <td>`grant_type`</td>
       <td>`urn:ietf:params:oauth:grant-type:device_code`</td>
     </tr>
@@ -59,7 +59,7 @@ Lancer une requête répétée à l'intervale renvoyée par la réponse de l'ét
 #### Avec cURL :
 
 ```bash
-curl -X POST https://[OAUTH_URL]/oauth/token \
+curl -X POST https://[API_URL]/oauth/token \
   -H "Content-Type: application/json" \
   --data '{"grant_type": "urn:ietf:params:oauth:grant-type:device_code", "device_code": "[REDACTED]", "client_id": "[REDACTED]"}'
 ```

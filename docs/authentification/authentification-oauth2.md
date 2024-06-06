@@ -17,16 +17,16 @@ Le client doit être en capacité :
 ### Fonctionnement
 
 **1.** Le client interroge une URL chargée de contrôler le client ID et de retourner des paramètres pour le contrôle du device.
-  - URL : `[OAUTH_URL]/oauth/authorize_device`
+  - URL : `[API_URL]/oauth/authorize_device`
   - Paramètre nécessaire : `client_id`
 
 **2.** Le serveur d’authentification retourne les infos suivantes : `device_code`, `user_code`, `verification_uri`, `expires_in`, `interval`
 
 **3.** Le client effectue en parallèle :
-  - un polling à intervalle indiquée par le retour de requête (attribut `interval`) sur l’URL de token (`[OAUTH_URL]/oauth/token`)
+  - un polling à intervalle indiquée par le retour de requête (attribut `interval`) sur l’URL de token (`[API_URL]/oauth/token`)
   - un affichage de page de navigateur correspondant à l’URL `verification_uri`
 
-**4.** Le serveur d’authentification retourne le token d’accès sur le token endpoint (`[OAUTH_URL]/oauth/token`) lorsque l’utilisateur confirme le code embarqué dans l’URL `verification_uri` depuis la page de navigateur
+**4.** Le serveur d’authentification retourne le token d’accès sur le token endpoint (`[API_URL]/oauth/token`) lorsque l’utilisateur confirme le code embarqué dans l’URL `verification_uri` depuis la page de navigateur
 
 ### Schéma
 
@@ -52,7 +52,7 @@ Schéma de séquence du device flow :
 
 |Requête|URL|Paramètres|
 |-------|---|----------|
-|POST|`[OAUTH_URL]/oauth/authorize_device`|`client_id`|
+|POST|`[API_URL]/oauth/authorize_device`|`client_id`|
 
 #### 2. Autorisation de client
 
@@ -83,7 +83,7 @@ Expire au bout de `expires_in` secondes.
   <tbody>
     <tr>
       <td rowspan="3">POST</td>
-      <td rowspan="3">`[OAUTH_URL]/oauth/token`</td>
+      <td rowspan="3">`[API_URL]/oauth/token`</td>
       <td>`grant_type`</td>
       <td>`urn:ietf:params:oauth:grant-type:device_code`</td>
     </tr>
