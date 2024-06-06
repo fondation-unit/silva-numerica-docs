@@ -86,7 +86,7 @@ Lorsqu'un nouveau fichier est envoyé par l'action **Post user file**, le fichie
 
 :::
 
-## Access user file
+## Show user file
 
 Récupérer l'URL d'un fichier utilisateur à partir de son ID.
 
