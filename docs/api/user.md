@@ -92,7 +92,7 @@ Récupérer l'URL d'un fichier utilisateur à partir de son ID.
 
 |Requête|Chemin|Headers|Valeur|
 |-------|------|-------|------|
-|POST|`/api/v1/users/secured_attachments/[ID]`|`Authorization`|`Bearer [REDACTED]`
+|GET|`/api/v1/users/secured_attachments/[ID]`|`Authorization`|`Bearer [REDACTED]`
 
 ```js title="Exemple de réponse"
 {
