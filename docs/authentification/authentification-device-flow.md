@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Exemple d'authentification Device Flow
+# Authentification Device Flow
 
 ## 1. Requête d'autorisation de client
 
