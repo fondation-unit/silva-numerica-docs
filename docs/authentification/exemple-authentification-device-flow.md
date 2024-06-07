@@ -79,7 +79,7 @@ Un polling avec succès retournera les informations suivantes :
 }
 ```
 
-Récupérer `access_token` pour authentifier l'utilisateur sur la plateforme pédagogique.
+Récupérer `access_token` pour authentifier l'utilisateur
 
 ## 4. Affichage de l'interface de confirmation
 
@@ -90,11 +90,7 @@ Ouvrir un navigateur sur l'URL `verification_uri_complete` fournie en réponse �
 
 La validation avec succès par l'utilisateur déclenche la réception des informations attendues par le polling de l'étape 3.
 
-## 5. Récupérer les informations de l'utilisateur sur la plate-forme pédagogique
-
-:::warning
-A ce stade, la requête est émise vers l'API de la plate-forme pédagogique et non le serveur d'authentification.
-:::
+## 5. Récupérer les informations de l'utilisateur
 
 Émettre une requête GET avec le Bearer token correspondant à la valeur `access_token` récupérée par le polling de l'étape 3.
 
