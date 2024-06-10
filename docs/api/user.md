@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Utilisateur
 
-## Show
+## Me
 
 Récupérer les informations d'un utilisateur.
 
 |Requête|Chemin|Headers|Valeur|
 |-------|------|-------|------|
-|POST|`/api/v1/users/oauth`|`Authorization`|`Bearer [REDACTED]`
+|POST|`/api/v1/me`|`Authorization`|`Bearer [REDACTED]`
 
 ```js title="Exemple de réponse"
 {
