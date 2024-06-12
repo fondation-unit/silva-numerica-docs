@@ -177,15 +177,16 @@ Action menée par l'utilisateur dans l'interface web (clic sur le bouton de vali
 
 |Requête|URL|Paramètre|
 |-------|---|---------|
-|GET|`[API_URL]/api/v1/me.json`|authorization: Bearer token|
+|GET|`[API_URL]/api/v1/me`|authorization: Bearer token|
 
 ```js title="Exemple de retour"
 {
-  "id": 1,
-  "email": "john.doe@example.com",
-  "firstname": "John",
-  "lastname": "Doe",
-  "created_at": "2023-11-06T15:49:07.837Z",
-  "updated_at": "2023-12-07T09:13:02.592Z"
+  "user": {
+    "id": 10,
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "johndoe@localhost.com",
+    "created_at": "2024-02-13T09:00:00.389Z"
+  }
 }
 ```
