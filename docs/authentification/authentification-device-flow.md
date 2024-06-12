@@ -96,12 +96,12 @@ La validation avec succès par l'utilisateur déclenche la réception des inform
 
 |Requête|URL|Headers|Valeur|
 |-------|---|-------|------|
-|GET|`[API_URL]/api/v1/users/current_user`|`Authorization`|`Bearer [REDACTED]`|
+|GET|`[API_URL]/api/v1/me`|`Authorization`|`Bearer [REDACTED]`|
 
 #### Avec cURL :
 
 ```bash
-curl https://[API_URL]/api/v1/users/current_user \
+curl https://[API_URL]/api/v1/me \
   -H "Authorization: Bearer [REDACTED]"
 ```
 
@@ -109,11 +109,12 @@ curl https://[API_URL]/api/v1/users/current_user \
 
 ```js
 {
-  "id": 5,
-  "email": "john.doe@example.com",
-  "firstname": "John",
-  "lastname": "Doe",
-  "created_at": "2024-02-05T08:52:20.957Z",
-  "created_date": "05/02/2024"
+  "user": {
+    "id": 10,
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "johndoe@localhost.com",
+    "created_at": "2024-02-13T09:00:00.389Z"
+  }
 }
 ```

@@ -10,7 +10,7 @@ Changements de l'URL d'authentification du device flow :
 
 Ajout de endpoints dans l'API de l'utilisateur :
 
-- route `me` (informations de l'utilisateur lié au token)
+- route `me` (informations de l'utilisateur liées au token)
 - route `user files` (liste des fichiers de l'utilisateur)
 - route `post user file` (envoyer un fichier utilisateur)
 - route `show user file` (accéder à l'URL d'un fichier utilisateur à partir de son ID)
