@@ -57,8 +57,8 @@ Récupérer la liste des fichiers d'un utilisateur.
 Envoyer un fichier utilisateur.
 
 |Requête|Chemin|Headers|Valeur|Enctype|Paramètres/Body|
-|-------|------|-------|------|multipart/form-data|`user_file`|
-|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`
+|-------|------|-------|------|-------|---------------|
+|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`|multipart/form-data|`user_file`|
 
 ```js title="Exemple de réponse"
 {
