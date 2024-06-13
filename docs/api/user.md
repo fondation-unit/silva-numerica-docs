@@ -10,7 +10,7 @@ Récupérer les informations d'un utilisateur.
 
 |Requête|Chemin|Headers|Valeur|
 |-------|------|-------|------|
-|POST|`/api/v1/me`|`Authorization`|`Bearer [REDACTED]`
+|GET|`/api/v1/me`|`Authorization`|`Bearer [REDACTED]`
 
 ```js title="Exemple de réponse"
 {
@@ -56,8 +56,8 @@ Récupérer la liste des fichiers d'un utilisateur.
 
 Envoyer un fichier utilisateur.
 
-|Requête|Chemin|Headers|Valeur|
-|-------|------|-------|------|
+|Requête|Chemin|Headers|Valeur|Enctype|Paramètres/Body|
+|-------|------|-------|------|multipart/form-data|`user_file`|
 |POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`
 
 ```js title="Exemple de réponse"
