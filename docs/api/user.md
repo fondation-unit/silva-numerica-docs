@@ -58,7 +58,7 @@ Envoyer un fichier utilisateur.
 
 |Requête|Chemin|Headers|Valeur|Enctype|Paramètres/Body|
 |-------|------|-------|------|-------|---------------|
-|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`|multipart/form-data|`user_file`|
+|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`|multipart/form-data|`file`|
 
 ```js title="Exemple de réponse"
 {
