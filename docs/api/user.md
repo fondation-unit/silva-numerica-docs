@@ -12,17 +12,6 @@ Récupérer les informations d'un utilisateur.
 |-------|------|-------|------|
 |GET|`/api/v1/me`|`Authorization`|`Bearer [REDACTED]`
 
-```js title="Exemple de réponse"
-{
-  "user": {
-    "id": 10,
-    "firstname": "John",
-    "lastname": "Doe",
-    "email": "johndoe@localhost.com",
-    "created_at": "2024-02-13T09:00:00.389Z"
-  }
-}
-```
 
 ## User files
 
@@ -32,51 +21,21 @@ Récupérer la liste des fichiers d'un utilisateur.
 |-------|------|-------|------|
 |GET|`/api/v1/users/user_files`|`Authorization`|`Bearer [REDACTED]`
 
-```js title="Exemple de réponse"
-{
-  "user_files": [
-    {
-      "id": 4,
-      "attachment": "[REDACTED]/test_file.json",
-      "file_type": "json",
-      "created_at": "2024-06-06T14:00:00.751Z",
-      "user": {
-        "id": 10,
-        "firstname": "John",
-        "lastname": "Doe",
-        "email": "johndoe@localhost.com",
-        "created_at": "2024-06-06T14:00:00.544Z"
-      }
-    }
-  ]
-}
-```
 
-## Post user file
+## User file upload
 
 Envoyer un fichier utilisateur.
 
 |Requête|Chemin|Headers|Valeur|Enctype|Paramètres/Body|
 |-------|------|-------|------|-------|---------------|
-|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`|multipart/form-data|`file`|
+|POST|`/api/v1/users/user_files/upload`|`Authorization`|`Bearer [REDACTED]`|multipart/form-data|`file`, `nature`, `scenario_id`|
 
-```js title="Exemple de réponse"
-{
-  "user_file": {
-    "id": 4,
-    "attachment": "[REDACTED]/test_file.json",
-    "file_type": "json",
-    "created_at": "2024-06-06T14:00:00.751Z",
-    "user": {
-      "id": 10,
-      "firstname": "John",
-      "lastname": "Doe",
-      "email": "johndoe@localhost.com",
-      "created_at": "2024-06-06T14:00:00.544Z"
-    }
-  }
-}
-```
+Le paramètre `nature` (str) accepte 2 valeurs : `auto` pour `manual`.
+
+- `auto` désigne les sauvegardes automatiques
+- `manual` désigne les sauvegardes manuelles
+
+Le quota de sauvegardes de l'utilisateur s'applique aux 2 natures individuellement. Par exemple, un quota de 5 sauvegardes pour les utilisateurs permettre à l'utilisateur X d'avoir 5 sauvegardes auto et 5 sauvegardes manuelles.
 
 :::note
 
@@ -86,19 +45,13 @@ Lorsqu'un nouveau fichier est envoyé par l'action **Post user file**, le fichie
 
 :::
 
-## Show user file
+## Get user file
 
 Récupérer l'URL d'un fichier utilisateur à partir de son ID.
 
 |Requête|Chemin|Headers|Valeur|
 |-------|------|-------|------|
-|GET|`/api/v1/users/secured_attachments/[ID]`|`Authorization`|`Bearer [REDACTED]`
-
-```js title="Exemple de réponse"
-{
-  "attachment": "[REDACTED]/test_file.json"
-}
-```
+|GET|`/api/v1/users/secured_attachments/{ID}`|`Authorization`|`Bearer [REDACTED]`
 
 :::note
 
