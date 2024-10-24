@@ -23,6 +23,8 @@ Voir la liste des paramètres dans Swagger.
 
 La mise à jour de l'enregistrement du scénario nécessite de fournir l'ID d'une parcelle existante.
 
+Le paramètre concernant les *skills* (aptitudes) permet de spécifier les ID devant être associés au scénario. Récupérer les ID en interrogeant la route GET `/api/v1/skills`.
+
 ## Cycle de création d'une parcelle
 
 Similaire à celui du scénario.
